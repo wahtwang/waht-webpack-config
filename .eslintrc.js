@@ -12,6 +12,9 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  rules:{
+    quotes:['error',"single", { "allowTemplateLiterals": true }]
+  },
   overrides: [
     {
       "files": ["*.js"],

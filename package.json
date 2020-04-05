@@ -8,7 +8,7 @@
     "smoke": "node ./test/smoke/index.js",
     "type-check": "tsc --watch",
     "pub": "git push && npm publish",
-    "devTest": "webpack-dev-server --config ./lib/webpack.dev.js"
+    "devTest": "webpack-dev-server --config ./lib/webpack.dev.js --hot"
   },
   "keywords": [
     "webpack-config"

@@ -13,6 +13,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   rules:{
+    "no-empty": ["error", { "allowEmptyCatch": true }],
     quotes:['error',"single", { "allowTemplateLiterals": true }]
   },
   overrides: [
